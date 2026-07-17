@@ -68,33 +68,3 @@ ProcessPNG uses GDI+ Bitmap to lock bits, apply TintPixels directly on the buffe
 
 ProcessICO reads raw file bytes and parses ICONDIR and ICONDIRENTRY. Each sub-image is loaded via a PNG stream or by creating an HICON and converting it to a GDI+ Bitmap. Every entry is retinted and re-encoded as PNG. The ICO directory is rebuilt and written out.
 
-Roadmap
--------
-
-*   Expose custom hue and threshold parameters via command line flags
-    
-*   Add preset tints such as teal, turquoise, and coral
-    
-*   Introduce GPU acceleration for bulk processing
-    
-*   Package as a NuGet or Chocolatey module for easy installation
-    
-
-Contributing
-------------
-
-1.  Fork the repository.
-    
-2.  Create a feature branch.
-    
-3.  Implement and test your changes.
-    
-4.  Submit a pull request for review.
-    
-
-License
--------
-
-MIT License © 2025 – Your Name
-
-See the LICENSE file for details.
